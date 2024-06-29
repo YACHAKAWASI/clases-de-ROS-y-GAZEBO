@@ -8,10 +8,17 @@ Las herramientas de que dispone ROS2 para introspeccionar e interactuar con la b
 Visualización de los marcos de TF mediante árboles de TF
 Visualización de fotogramas TF mediante RVIZ2
 
-2.3 Ver_cuadros en formato PDF:
+## 2.3 Ver_cuadros en formato PDF:
 ros2 run tf2_tools view_frames
 
-2.4 Ver fotogramas TF utilizando rqt_tf_tree:
+## 2.4 Ver fotogramas TF utilizando rqt_tf_tree:
+ros2 run rqt_tf_tree rqt_tf_tree
+
+## 2.5 Ver tramas TF en el terminal utilizando tf_echo
+Se puede usar los topics :/tf  y /tf_static  para analizar que se estan publicando todos los TF.
+Ahora bien dichos topics publican todos los cuadros del robot y es un poco inhumano de tratar de ver toda la informacion.
+
+Existe una forma practica de filtrar solo 1 cuadro y asi ver al detalle las transformaciones.
 
 
 
@@ -52,3 +59,19 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
+
+# Navegar al directorio de tu proyecto
+cd ~/mi_proyecto_ros2
+
+# Fuente de tu espacio de trabajo
+source /opt/ros/foxy/setup.bash
+source ~/mi_ws/install/setup.bash
+
+# Compilar tu espacio de trabajo
+colcon build
+
+# Ejecutar un nodo
+ros2 run mi_paquete mi_nodo
+
+
