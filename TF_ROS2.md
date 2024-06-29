@@ -12,8 +12,9 @@ Visualización de fotogramas TF mediante RVIZ2
 ros2 run tf2_tools view_frames
 
 ## 2.4 Ver fotogramas TF utilizando rqt_tf_tree:
+```sh
 ros2 run rqt_tf_tree rqt_tf_tree
-
+``` 
 ## 2.5 Ver tramas TF en el terminal utilizando tf_echo
 Se puede usar los topics :/tf  y /tf_static  para analizar que se estan publicando todos los TF.
 Ahora bien dichos topics publican todos los cuadros del robot y es un poco inhumano de tratar de ver toda la informacion.
@@ -24,6 +25,19 @@ ros2 topic echo /tf
   ``` 
 
 Existe una forma practica de filtrar solo 1 cuadro y asi ver al detalle las transformaciones.
+
+```sh
+ros2 run tf2_ros tf2_echo rgb_camera_link_frame turtle_chassis
+```   
+Ahora bien  los parametros que se muestran se puede varias  cuando movemos un robot  con el siguiente comando:
+
+```sh
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap cmd_vel:=/turtle_cmd_vel
+``` 
+## 2.6 Ver_cuadros utilizando RVIZ2
+otra forma de ver y analizar de mejor manera es usa la herramienta RVIZ2
+
+
 
 
 
