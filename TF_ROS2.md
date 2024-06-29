@@ -1,18 +1,40 @@
 
+
 # UNIDAD 1: INTRODUCCION
 
+Manejo de TF  en ros2 humble entorno rviz2 nivel maestria.
+
+En este curso aprenderá:
+
+Qué son los marcos de coordenadas y por qué son necesarios
+El papel de las transformaciones
+La biblioteca TF2 y cómo ayuda a gestionar los marcos de coordenadas y las transformaciones
+Las herramientas de que dispone ROS2 para introspeccionar e interactuar con la biblioteca TF2
+Cómo escribir un emisor de transformación estática
+Cómo emitir transformaciones dinámicas
+Qué es el nodo Robot State Publisher y cuál es su función
+
+
 ## 1.2 Sistemas de coordenadas, marcos de referencia y marcos de coordenadas
+
+## 1.4 Crear un marco de coordenadas
+usando el comando:
+```sh
+ros2 run tf2_ros static_transform_publisher --x 0 --y 4.0 --z 0 --roll 0 --pitch 0 --yaw 0 --frame-id deepmind_robot1_odom --child-frame-id rock
+```
+podras ver que se crea uno nuevo sistema de marco en entorno rviz2
 
 ## MAS TEORIA
 
 - Unidades de medida estándar y convenciones de coordenadas en : [documentación oficial](https://www.ros.org/reps/rep-0103.html) 
 
-- Unidades de medida estándar y convenciones de coordenadas en : [documentación oficial](https://www.ros.org/reps/rep-0103.html) 
+- Marcos de coordenadas para plataformas móviles : [documentación oficial](https://www.ros.org/reps/rep-0105.html) 
 
-- Unidades de medida estándar y convenciones de coordenadas en : [documentación oficial](https://www.ros.org/reps/rep-0103.html) 
+- Marcos de coordenadas para robots humanoides : [documentación oficial](https://www.ros.org/reps/rep-0120.html) 
 
+- Marcos de coordenadas para manipuladores industriales en serie : [documentación oficial](https://gavanderhoorn.github.io/rep/rep-0199.html) 
 
-- Unidades de medida estándar y convenciones de coordenadas en : [documentación oficial](https://www.ros.org/reps/rep-0103.html) 
+- Una interfaz estándar para vehículos aéreos : [documentación oficial](https://ros.org/reps/rep-0147.html) 
 
 
 
