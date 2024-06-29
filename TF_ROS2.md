@@ -18,6 +18,11 @@ ros2 run rqt_tf_tree rqt_tf_tree
 Se puede usar los topics :/tf  y /tf_static  para analizar que se estan publicando todos los TF.
 Ahora bien dichos topics publican todos los cuadros del robot y es un poco inhumano de tratar de ver toda la informacion.
 
+## Comando para ver los tópicos de `tf`
+```sh
+ros2 topic echo /tf
+  ``` 
+
 Existe una forma practica de filtrar solo 1 cuadro y asi ver al detalle las transformaciones.
 
 
