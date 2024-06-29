@@ -3,6 +3,18 @@
 
 ## 1.2 Sistemas de coordenadas, marcos de referencia y marcos de coordenadas
 
+## MAS TEORIA
+
+- Unidades de medida estándar y convenciones de coordenadas en : [documentación oficial](https://www.ros.org/reps/rep-0103.html) 
+
+- Unidades de medida estándar y convenciones de coordenadas en : [documentación oficial](https://www.ros.org/reps/rep-0103.html) 
+
+- Unidades de medida estándar y convenciones de coordenadas en : [documentación oficial](https://www.ros.org/reps/rep-0103.html) 
+
+
+- Unidades de medida estándar y convenciones de coordenadas en : [documentación oficial](https://www.ros.org/reps/rep-0103.html) 
+
+
 
 
 # UNIDAD 2 FUNDAMENTOS DE LA TF
