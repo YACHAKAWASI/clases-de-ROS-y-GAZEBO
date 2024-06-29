@@ -36,6 +36,8 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap cmd_vel:
 ``` 
 ## 2.6 Ver_cuadros utilizando RVIZ2
 otra forma de ver y analizar de mejor manera es usa la herramienta RVIZ2
+en esta plataforma se puede  lograr mchas cosas para el mejor manejo del tema TF
+
 
 
 
