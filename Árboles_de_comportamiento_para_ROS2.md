@@ -10,3 +10,15 @@ Durante el curso, usted va a aprender acerca de
 Conocer los mecanismos y principios de diseño del marco de trabajo de los Behavior Trees
 Recibirá habilidades prácticas para utilizar el marco BehaviorTree.CPP junto con ROS2 (arquitectura del comportamiento del robot)
 Aprenderá los mecanismos avanzados del marco BehaviorTree.CPP (comportamiento estocástico) y planificación automatizada.
+
+# Unit 1   Introduction to the Course
+
+# Unit 2:   Introduction to Behavior Trees
+
+# Unit 3:   Design Principles of Behavior Trees in the Context of a Successful Task Description of the Autonomous Agent 
+
+# Unit 4:   BehaviorTree.CPP as a C++ Library and ROS Framework to Support the Modeling of Robot Behavior
+
+# Unit 5:   Stochastic Behavior Trees and Automated Planning
+
+# Unit 5: Course Project  
