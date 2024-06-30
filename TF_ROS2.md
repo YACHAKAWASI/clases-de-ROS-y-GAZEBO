@@ -78,59 +78,11 @@ en esta plataforma se puede  lograr mchas cosas para el mejor manejo del tema TF
 
 
 
+# UNIDAD 3: Emisión y escucha de TF
+Crear una emisora TF estática
+Crear un receptor de TF
+Comprender la relación entre el tiempo y los TF
 
 
-
-# Clase de ROS 2
-
-## Tareas
-
-- [ ] Completar la instalación de ROS 2
-- [ ] Configurar el entorno de desarrollo
-- [ ] Crear el primer nodo
-
-## Notas Importantes
-
-- **ROS 2** es una versión mejorada de **ROS**.
-- Utiliza DDS como middleware de comunicación.
-- Asegúrate de seguir la [documentación oficial](https://docs.ros.org/en/foxy/index.html) para una guía detallada.
-
-## Ejemplo de Código
-
-Aquí tienes un ejemplo de cómo iniciar un nodo en ROS 2 usando Python:
-
-```python
-# Ejemplo de código en Python
-import rclpy
-from rclpy.node import Node
-
-class MiNodo(Node):
-    def __init__(self):
-        super().__init__('mi_nodo')
-        self.get_logger().info('Nodo iniciado')
-
-def main(args=None):
-    rclpy.init(args=args)
-    nodo = MiNodo()
-    rclpy.spin(nodo)
-    nodo.destroy_node()
-    rclpy.shutdown()
-
-if __name__ == '__main__':
-    main()
-
-
-# Navegar al directorio de tu proyecto
-cd ~/mi_proyecto_ros2
-
-# Fuente de tu espacio de trabajo
-source /opt/ros/foxy/setup.bash
-source ~/mi_ws/install/setup.bash
-
-# Compilar tu espacio de trabajo
-colcon build
-
-# Ejecutar un nodo
-ros2 run mi_paquete mi_nodo
 
 
