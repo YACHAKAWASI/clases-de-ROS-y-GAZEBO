@@ -202,3 +202,4 @@ para ver los componentes de este mensaje:
 
 # UNIT 3:   Image Processing
 
+![Descripción de la imagen](http://wiki.ros.org/cv_bridge?action=AttachFile&do=get&target=cvbridge.png)
