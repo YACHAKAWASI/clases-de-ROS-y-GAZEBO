@@ -197,3 +197,7 @@ if __name__ == '__main__':
 
 para ver los componentes de este mensaje:
 - la estructura del mensaje puede analizarlo aqui : [documentación oficial](https://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/PointCloud2.html) 
+
+
+# UNIT 3:   Image Processing
+
