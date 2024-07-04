@@ -470,3 +470,34 @@ if __name__ == '__main__':
     main()
 
 ```
+
+
+
+# UNIT 5:   Human-Robot Interaction
+
+se va realizar en activiades en este capitulo
+
+Face Detection: 
+Face Recognition:
+Human Tracking: 
+
+crear  3 archivos python
+
+face_detection.py
+
+face_recognition.py
+
+human_tracking.py
+
+
+```sh
+cd ~/ros2_ws/src/
+ros2 pkg create --build-type ament_python hri
+cd ~/ros2_ws/
+colcon build
+source install/setup.bash
+cd src/hri/hri
+touch face_detection.py face_recognition.py human_tracking.py 
+chmod +x *.py
+cd ~/ros2_ws/
+```
