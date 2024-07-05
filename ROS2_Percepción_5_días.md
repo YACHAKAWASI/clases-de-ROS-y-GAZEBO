@@ -501,3 +501,20 @@ touch face_detection.py face_recognition.py human_tracking.py
 chmod +x *.py
 cd ~/ros2_ws/
 ```
+
+
+
+
+# UNIT 6:   AI Perception Techniques with YOLO in ROS 2
+
+
+crear paquete:
+
+```sh
+cd ~/ros2_ws/src/
+ros2 pkg create --build-type ament_python advanced_perception
+cd ~/ros2_ws/
+colcon build
+source install/setup.bash
+```
+
